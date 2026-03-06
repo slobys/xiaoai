@@ -1,11 +1,4 @@
 // /opt/open-xiaoai-migpt/config.ts
-// ✅ 日常版：默认只输出 A（避免和系统自带🔥输入重复）；可语音开启/关闭 Q
-// ✅ 重点修复：打断 —— 默认非阻塞播放 blocking:false，让说话时仍能收到新输入
-// ✅ 强力停声：abort 时立即 stop，多轮探测 stop/abort 方法名
-// ✅ 前缀兜底：所有播报统一加前缀（不会漏）
-// ✅ 保留：原生/AI切换、多模型切换、OpenAI fallback、测试模型等全部功能
-// ✅ 最小修复：原生模式下普通问句直接放行给系统原生小爱，不再提前打断导致无声
-// ✅ 默认 OpenAI 模型改为 gpt-4o-mini
 
 type OpenAICompatResponse = {
   choices?: Array<{ message?: { content?: string } }>;
