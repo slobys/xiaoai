@@ -12,22 +12,9 @@ opkg update
 opkg install git git-http ca-bundle
 ```
 ### 拉取项目
-
-sudo yum install git -y
+```
+git clone https://github.com/slobys/xiaoai.git .
 ```
 
-### 如果执行后出错，请先更新系统
-* （Debian/Ubuntu系统）
-```bash
-sudo apt update -y
-```
-* （CentOS系统）
-```bash
-sudo yum update -y
-```
-## 一键脚本
-```bash
-sudo apt install git -y && git clone https://github.com/slobys/npm.git && cd npm && chmod +x npm.sh && ./npm.sh
-```
 
   
