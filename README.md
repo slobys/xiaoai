@@ -6,11 +6,12 @@
   
 
 ## 安装git
-### Debian和Ubuntu系统
+### openwrt/iStoreOS系统
 ```bash
-sudo apt install git -y
+opkg update
+opkg install git git-http ca-bundle
 ```
-### CentOS系统
+### 拉取项目
 
 sudo yum install git -y
 ```
