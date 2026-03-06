@@ -15,7 +15,7 @@ opkg install git git-http ca-bundle
 ```
 git clone https://github.com/slobys/xiaoai.git .
 ```
-
+[项目主页](https://github.com/idootop/open-xiaoai)
 
 
   
