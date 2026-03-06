@@ -1,12 +1,9 @@
 # 小爱音箱接入大模型
 ![图片说明](项目逻辑思维图.png)
-## 项目功能
+## 项目主要实现功能
 * 保留原生小爱模式
-* 
+* 增加AI模式，在AI模式下可以切换不同的模型
   
-```<img width="2553" height="1182" alt="未命名文件(22)" src="https://github.com/user-attachments/assets/362ba935-1566-48f7-9c22-1d64a61bc21d" />
-
-* 
 
 ## 安装git
 ### Debian和Ubuntu系统
@@ -14,7 +11,6 @@
 sudo apt install git -y
 ```
 ### CentOS系统
-```<img width="2553" height="1182" alt="未命名文件(22)" src="https://github.com/user-attachments/assets/362ba935-1566-48f7-9c22-1d64a61bc21d" />
 
 sudo yum install git -y
 ```
